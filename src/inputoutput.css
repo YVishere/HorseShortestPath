@@ -1,0 +1,19 @@
+#error-message{
+    color: red;
+    padding: 20px;
+}
+
+.horse-container{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden; 
+}
+
+#horse{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 2;
+    opacity: 1;
+}

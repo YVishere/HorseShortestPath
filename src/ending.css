@@ -1,0 +1,13 @@
+#endLine{
+    color: green;
+    align-items: center;
+    font: bold 20px 'Times New Roman';
+    position: absolute;
+}
+
+.CompInfo, .UserInfo{
+    color: lightgreen;
+    align-items: center;
+    font: 10px 'Times New Roman';
+    position: relative;
+}

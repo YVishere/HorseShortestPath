@@ -1,16 +1,20 @@
+html {
+    overflow-y: scroll; /* prevent div from moving when scrollbar appears */
+}
+
 html, body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow-y: scroll; /* prevent div from moving when scrollbar appears */
+    /*overflow-y: scroll; /* prevent div from moving when scrollbar appears */
 }
 
 .container {
     display: flex;
     align-items: center; /* Align items vertically centered */
-    overflow-y: auto; /* Enable vertical scrolling */
+    /*overflow-y: auto; /* Enable vertical scrolling */
     max-height: 100vh; /* Ensure the container does not exceed the viewport height */
 }
 

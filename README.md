@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A website made with Vite React to design a game where you drag a horse from on a square on a chessboard to another in the minimum number of moves. A Javascript program runs in background using Djikstra's algorithm to simulate a shortest distance path with the same starting and ending points. The computer results are shown along with the user's for comparison after the game ends.
